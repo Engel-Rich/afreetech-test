@@ -1,0 +1,17 @@
+
+services:
+  app:
+    build: .
+    container_name: laravel_app
+    ports:
+      - "8000:8000" # Rediriger le port 8000 du conteneur vers le port 8000 de la machine hôte
+    volumes:
+      - ./laraveltest:/var/www/laraveltest # Monter le dossier local dans le conteneur
+    working_dir: /var/www/laraveltest # Définir le répertoire de travail
+    command: php artisan serve --host=0.0.0.0 --port=8000 # Démarrer le serveur Laravel sur 0.0.0.0
+    networks:
+      - testepratique_default
+
+networks:
+  testepratique_default:
+    external: true

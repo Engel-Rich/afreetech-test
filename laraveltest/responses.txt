@@ -1,0 +1,14 @@
+TEST THÉORIQUE 
+
+PHP est un langage développement web qui exécute le code côté serveur. Dans la programmation Web, il permet d'écrire la logique métier, il récupère et traite les requêtes des clients et leur renvoie des réponses.  
+La définition des variables se fait par appellation de celle-ci  précède du $. Exemple $resulTest=”Won” ; en PHP il existe principalement 5 type de variable: 
+Les entiers
+les string 
+les floats
+bool
+A cela s'ajoutent les array, object(classes) et éventuellement les ressources et la variable NULL.
+La programmation orientée objet en PHP est un mode de programmation qui consiste à segmenter le code en classes et en méthodes le rendant ainsi plus modulable. Son utilisation PHP consiste à créer des classes et ou des interfaces qui vont gérer chaque fonctionnalité ou service.
+En PHP les erreurs se gèrent avec des try catch qui permettent de lever les exceptions. 
+La sécurité informatique est l’ensemble des moyens techniques, organisationnels, juridiques et humains pour protéger l’intégrité et la confidentialité des informations stockées dans un système informatique. En PHP elle est généralement garantie par un système d'authentification qui permet de sécuriser les données des utilisateurs et un système de variable d’environnement permettant de sécuriser les clés sensibles 
+Les framework PHP telques Symphony et Laravel sont généralement utilisés coté backend pour concevoir les API REST qu’on expose au client en HTTP
+La conception de base des données est un ensemble de méthodes consistant à concevoir, à créer et à gérer une base de données. Sa réalisation passe par une analyse minutieuse  du système par les méthodes MERISE ou UML(visant à déterminer les entités(tables) et les attributs de celle-ci) et l’utilisation des SGBD permettant de manager celle-ci. 
